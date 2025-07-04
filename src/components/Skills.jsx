@@ -29,7 +29,7 @@ export default function Skills() {
       id="skills"
       className="bg-black text-white px-6 py-20 flex flex-col items-center justify-center"
     >
-      <h2 className="text-4xl font-bold mb-12 michroma-regular">Skills</h2>
+      <h2 className="text-4xl font-bold mb-12">Skills</h2>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl w-full">
         {skillCategories.map((category, index) => (

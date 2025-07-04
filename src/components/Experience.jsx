@@ -6,7 +6,7 @@ export default function Experience() {
       id="experience"
       className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 py-20"
     >
-      <h2 className="text-4xl font-bold mb-10 michroma-regular">Experience</h2>
+      <h2 className="text-4xl font-bold mb-10 montserrat-regular">Experience</h2>
       <div className="max-w-4xl text-lg leading-relaxed text-gray-300 bg-[#111] p-6 rounded-lg border border-white shadow-md">
         <h3 className="text-2xl font-semibold text-white mb-4">
           Software Development Intern

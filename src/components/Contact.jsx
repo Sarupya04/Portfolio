@@ -7,7 +7,7 @@ export default function Contact() {
       id="contact"
       className="min-h-screen bg-black text-white px-6 py-20 flex flex-col items-center justify-center"
     >
-      <h2 className="text-4xl font-bold mb-12 michroma-regular">Contact</h2>
+      <h2 className="text-4xl font-bold mb-12 montserrat-regular">Contact</h2>
 
       <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl w-full">
         {/* Email */}

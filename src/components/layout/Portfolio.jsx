@@ -54,42 +54,46 @@ export default function Portfolio() {
   return (
     <>
       <style>{`
-        .custom-cursor {
-          width: 20px;
-          height: 20px;
-          border: 2px solid #ffffff;
-          border-radius: 50%;
-          position: fixed;
-          pointer-events: none;
-          transform: translate(-50%, -50%);
-          z-index: 9999;
-          transition: opacity 0.2s ease;
+      .custom-cursor {
+        width: 90px;
+        height: 90px;
+        border: 1px solid #ffffff; /* thinner border */
+        border-radius: 50%;
+        position: fixed;
+        pointer-events: none;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+        transition: opacity 0.2s ease, transform 0.15s ease-out;
+        background-color: rgba(255, 255, 255, 0.03); /* very subtle glow inside */
+        box-shadow: 0 0 30px rgba(255, 255, 255, 0.2); /* larger soft glow */
+      }
+
+      body {
+        background-color: black;
+      }
+      .underline-animation {
+        display: inline-block;
+        position: relative;
+      }
+      .underline-animation::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        animation: underlineSlide 1s ease-out forwards;
+        transform: scaleX(0);
+        transform-origin: left;
+      }
+      @keyframes underlineSlide {
+        to {
+          transform: scaleX(1);
         }
-        body {
-          background-color: black;
-        }
-        .underline-animation {
-          display: inline-block;
-          position: relative;
-        }
-        .underline-animation::after {
-          content: "";
-          position: absolute;
-          width: 100%;
-          height: 2px;
-          bottom: 0;
-          left: 0;
-          background-color: white;
-          animation: underlineSlide 1s ease-out forwards;
-          transform: scaleX(0);
-          transform-origin: left;
-        }
-        @keyframes underlineSlide {
-          to {
-            transform: scaleX(1);
-          }
-        }
-      `}</style>
+      }
+    `}</style>
+
       <div className="text-white scroll-smooth min-h-screen relative z-10">
         <Navbar />
         <Hero />

@@ -6,7 +6,7 @@ export default function About() {
       id="about"
       className="min-h-screen bg-black text-white flex flex-col items-center justify-center px-6 py-20"
     >
-      <h2 className="text-4xl font-bold mb-8 michroma-regular">About Me</h2>
+      <h2 className="text-4xl font-bold mb-8 montserrat-regular">About Me</h2>
       <p className="max-w-2xl text-lg leading-relaxed text-center text-gray-300">
         I'm a B.Tech Computer Science student at Malla Reddy Engineering College, passionate about frontend development and modern UI design. I enjoy crafting responsive, user-friendly interfaces using technologies like React, Tailwind CSS, JavaScript, and Bootstrap.
       </p>
