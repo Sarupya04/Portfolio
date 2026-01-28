@@ -55,16 +55,16 @@ export default function Portfolio() {
     <>
       <style>{`
       .custom-cursor {
-        width: 90px;
-        height: 90px;
-        border: 1px solid #ffffff; /* thinner border */
+        width: 15px;
+        height: 15px;
+        // border: 1px solid #ffffff; /* thinner border */
         border-radius: 50%;
         position: fixed;
         pointer-events: none;
         transform: translate(-50%, -50%);
         z-index: 9999;
         transition: opacity 0.2s ease, transform 0.15s ease-out;
-        background-color: rgba(255, 255, 255, 0.03); /* very subtle glow inside */
+        background-color: white;
         box-shadow: 0 0 30px rgba(255, 255, 255, 0.2); /* larger soft glow */
       }
 

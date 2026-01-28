@@ -11,10 +11,6 @@ export default function Hero() {
       </div>
 
 
-
-
-
-
       <div className="text-center text-white pt-32">
         <h1 className="text-5xl font-bold mb-4 montserrat-regular">Hi, I'm Mucharla Jai Sarupya</h1>
         <p className="text-xl mb-6 montserrat-regular">Web Developer | Programmer </p>
